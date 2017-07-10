@@ -71,7 +71,7 @@ int main(void) {
 
 pvr_init_defaults();
 
-vid_set_mode(DM_320x240, PM_RGB565);
+vid_set_mode(DM_640x480, PM_RGB565);
 
   while(!quit) {
     drawSprite(x, y, spriteData);
